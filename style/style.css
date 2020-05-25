@@ -1,0 +1,32 @@
+body {
+    padding: 10px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 150px);
+}
+
+.first {
+    grid-row: span 2;
+    background-color: aqua;
+}
+.second {
+    grid-column-start: 3;
+    grid-column-end: 6;
+    background-color: blue;
+}
+.third {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    background-color: cadetblue;
+}
+.fourth {
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 6;
+    background-color: teal;
+}
