@@ -48,3 +48,29 @@ p {
 a {
     text-decoration: none;
 }
+ img {
+    max-width: 100px;
+    max-height: 100px;
+
+} 
+.secondG {
+    display: grid;
+    /* max-width: 500px;
+    max-height: 500px; */
+    grid-template-rows: repeat(5, 100px);
+    grid-template-columns: repeat(5, 100px);
+}
+.g2 {
+    grid-column-start: 5;
+}
+.g3 {
+    grid-column-start: 3;
+    grid-row-start: 3;
+}
+.g4 {
+    grid-row-start: 5;
+}
+.g5 {
+    grid-row-start: 5;
+    grid-column-start: 5;
+}
