@@ -30,3 +30,9 @@ body {
     grid-row-end: 6;
     background-color: teal;
 }
+
+p {
+    font-family: fantasy;
+    color: lightseagreen;
+    font-size: 18px;
+}
