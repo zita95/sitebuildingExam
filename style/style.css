@@ -5,16 +5,19 @@ body {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(5, 150px);
+    border: dotted
 }
 
 .first {
     grid-row: span 2;
     background-color: aqua;
+    border: solid 5px black;
 }
 .second {
     grid-column-start: 3;
     grid-column-end: 6;
     background-color: blue;
+    border-radius: 555px;
 }
 .third {
     grid-column-start: 1;
@@ -22,6 +25,8 @@ body {
     grid-row-start: 4;
     grid-row-end: 6;
     background-color: cadetblue;
+    border-width: 3px;
+    border: double;
 }
 .fourth {
     grid-column-start: 3;
@@ -29,6 +34,9 @@ body {
     grid-row-start: 3;
     grid-row-end: 6;
     background-color: teal;
+    border: firebrick 3px ridge;
+    
+
 }
 
 p {
